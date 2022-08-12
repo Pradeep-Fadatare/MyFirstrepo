@@ -23,6 +23,6 @@ public class EnableNetworkOnline {
         devTools.send(Network.enable(Optional.of(10000), Optional.empty(), Optional.empty()));
         devTools.send(emulateNetworkConditions(false, 100, 1000, 2000, Optional.of(ConnectionType.WIFI)));
         driver.get("https://opensource-demo.orangehrmlive.com/");
-
+// it is done for git checking
     }
 }
